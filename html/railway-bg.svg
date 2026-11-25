@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b1d3a"/><stop offset=".55" stop-color="#2b4c7e"/><stop offset=".85" stop-color="#e8833a"/><stop offset="1" stop-color="#ffd27a"/></linearGradient>
+<radialGradient id="b"><stop offset="0" stop-color="#fff3c4"/><stop offset=".4" stop-color="#ffd27a" stop-opacity=".8"/><stop offset="1" stop-color="#ffd27a" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#a)"/>
+<path fill="#fff" opacity=".7" d="M663 77h2v2h-2zM808 24h2v2h-2zM148 274h2v2h-2zM192 187h2v2h-2zM1193 29h2v2h-2zM1039 109h2v2h-2zM76 44h2v2h-2zM888 214h2v2h-2zM143 123h2v2h-2zM185 282h2v2h-2zM869 30h2v2h-2zM1158 63h2v2h-2zM457 322h2v2h-2zM1284 298h2v2h-2zM126 295h2v2h-2zM1199 203h2v2h-2zM101 113h2v2h-2zM95 285h2v2h-2zM272 148h2v2h-2zM858 73h2v2h-2zM1107 60h2v2h-2zM1169 157h2v2h-2zM1147 92h2v2h-2zM211 297h2v2h-2zM1169 327h2v2h-2zM384 190h2v2h-2zM199 280h2v2h-2zM1458 32h2v2h-2zM1155 30h2v2h-2zM1267 105h2v2h-2zM1016 272h2v2h-2zM875 160h2v2h-2zM953 299h2v2h-2zM928 185h2v2h-2zM613 127h2v2h-2zM368 124h2v2h-2zM167 294h2v2h-2zM614 268h2v2h-2zM1013 175h2v2h-2zM1493 229h2v2h-2z"/>
+<circle cx="800" cy="520" r="260" fill="url(#b)"/>
+<polygon fill="#16233d" points="0,520 0,400 120,450 260,350 420,460 560,400 700,500 800,520 900,490 1050,410 1200,470 1350,360 1480,440 1600,390 1600,520"/>
+<polygon fill="#0f1a2e" points="0,520 0,470 180,490 340,440 520,500 700,505 800,520 1000,500 1180,480 1380,450 1600,480 1600,520"/>
+<rect y="520" width="1600" height="380" fill="#121b16"/>
+<polygon fill="#4a4a52" points="800,520 380,900 1220,900"/>
+<path fill="#5b3a22" d="M794 523h11v2h-11zM786 529h29v2h-29zM772 539h55v3h-55zM755 551h90v3h-90zM734 567h132v4h-132zM709 585h182v5h-182zM680 606h239v6h-239zM648 629h303v7h-303zM613 655h374v8h-374zM575 683h451v9h-451zM533 714h535v10h-535zM488 746h625v12h-625zM440 781h721v13h-721zM388 819h823v15h-823zM334 858h931v16h-931zM277 900h1046v18h-1046z"/>
+<polygon fill="#d5dae2" points="800,520 411,900 429,900"/>
+<polygon fill="#d5dae2" points="800,520 1171,900 1189,900"/>
+</svg>

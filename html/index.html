@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Railway Reservation System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🚆 Railway Reservation System</h1>
+    <p>Rungta International Skills University | PS 66 | Sameer Kumar</p>
+  </header>
+
+  <main>
+    <section class="stats">
+      <div class="stat"><span id="sTrains">0</span>Trains</div>
+      <div class="stat"><span id="sConfirmed">0</span>Confirmed</div>
+      <div class="stat"><span id="sWaiting">0</span>Waiting</div>
+      <div class="stat"><span id="sFree">0</span>Seats Free</div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Book Ticket</h2>
+        <select id="trainSelect"></select>
+        <input id="name" placeholder="Passenger name">
+        <button onclick="bookTicket()">Book</button>
+      </div>
+
+      <div class="card">
+        <h2>Search / Cancel Ticket</h2>
+        <input id="ticketId" placeholder="Ticket ID (e.g. TKT101)">
+        <div class="row">
+          <button onclick="searchTicket()">Search</button>
+          <button class="danger" onclick="cancelTicket()">Cancel</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Search Route</h2>
+        <input id="from" list="stations" placeholder="From station">
+        <input id="to" list="stations" placeholder="To station">
+        <datalist id="stations"></datalist>
+        <button onclick="searchRoute()">Search Route</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="head">
+        <h2>Available Trains</h2>
+        <select id="sortSelect" onchange="changeSort()">
+          <option value="id">Sort by: Train ID</option>
+          <option value="fare">Sort by: Fare</option>
+          <option value="dep">Sort by: Departure</option>
+        </select>
+      </div>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Train</th><th>Route</th><th>Departure</th><th>Fare</th><th>Seats</th><th>Waiting</th><th>Status</th></tr></thead>
+          <tbody id="trainsBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>All Tickets</h2>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Ticket</th><th>Passenger</th><th>Train</th><th>Status</th><th></th></tr></thead>
+          <tbody id="ticketsBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Output</h2>
+      <div id="output" class="console"></div>
+      <button class="light" onclick="resetData()">Reset all data</button>
+    </section>
+  </main>
+
+  <div id="toasts"></div>
+  <script src="script.js"></script>
+</body>
+</html>

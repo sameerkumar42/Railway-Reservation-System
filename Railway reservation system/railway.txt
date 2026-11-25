@@ -1,0 +1,5 @@
+T101,Delhi,Mumbai,08:00,500,100
+T102,Patna,Delhi,09:30,700,80
+T103,Bhopal,Indore,10:00,300,60
+T104,Mumbai,Pune,12:00,250,50
+T105,Patna,Kolkata,18:00,600,90
